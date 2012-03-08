@@ -190,7 +190,7 @@ sub navigations
     }
     elsif( $stop == $s->total_pages && $start > 1 )
     {
-      while( ( $stop - $start < ( $padding * 2 ) ) && $start > 0 )
+      while( ( $stop - $start < ( $padding * 2 ) ) && $start > 1 )
       {
         $start--;
       }# end while()
